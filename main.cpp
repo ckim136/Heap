@@ -11,7 +11,6 @@ int main() {
     patients.emplace_back("p4", 4);
     patients.emplace_back("p5", 9);
     patients.emplace_back("p6", 5);
-    patients.emplace_back("p7", 2);
 
     for (auto it = patients.begin(); it != patients.end(); ++it) {
         s->addPatient(*it);
