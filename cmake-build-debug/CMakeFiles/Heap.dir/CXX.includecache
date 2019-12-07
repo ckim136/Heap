@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/kimem/CLionProjects/Heap/heap.hpp
+iostream
+-
+vector
+-
+algorithm
+-
+
+/cygdrive/c/Users/kimem/CLionProjects/Heap/hospital.hpp
+vector
+-
+heap.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Heap/heap.hpp
+patient.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Heap/patient.hpp
+
+/cygdrive/c/Users/kimem/CLionProjects/Heap/main.cpp
+iostream
+-
+hospital.hpp
+/cygdrive/c/Users/kimem/CLionProjects/Heap/hospital.hpp
+
+/cygdrive/c/Users/kimem/CLionProjects/Heap/patient.hpp
+utility
+-
+string
+-
+
