@@ -9,6 +9,8 @@
 
 class Patient {
 public:
+    //pair, first: name
+    //      second: severity
     std::pair<std::string, int> person;
 
     Patient(std::string name, int severity) : person(name, severity){}

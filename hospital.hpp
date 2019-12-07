@@ -44,11 +44,12 @@ public:
     void printPatients() {
         cout << patientList;
     }
-
+    // only one instance
     Hospital(Hospital const &) = delete;
     void operator=(Hospital const&) = delete;
 
 };
+//singleton
 template<typename T>
 Hospital<T>* Hospital<T>::h = nullptr;
 #endif //HEAP_HOSPITAL_HPP

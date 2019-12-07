@@ -1,7 +1,7 @@
 #include <iostream>
 #include"hospital.hpp"
 int main() {
-
+//used singleton design pattern
     Hospital<Patient>* s = Hospital<Patient>::getHospital();
     vector<Patient> patients;
 
